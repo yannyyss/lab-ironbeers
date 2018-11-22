@@ -5,4 +5,96 @@ dark-blue: #0A2C42;
 grey: rgba(145, 145, 145, 0.481);
 font-family: Arial, Helvetica, sans-serif
 */
-  
+body {
+    background-color: #eee;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav {
+    background-color: #2081C3;
+    box-shadow: 2px 2px 5px #999;
+}
+#nav-ul {
+    display: flex;
+    flex-direction: row;
+}
+#nav-ul li {
+    padding: 1.5em;   
+    list-style:none;
+}
+#nav-ul a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#footer{
+    background-color: #0A2C42;
+    width: 100%;
+    color: #fff;
+    padding: .5em 2.5em;
+    align-self: flex-end;
+}
+#container-beer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img-beer {
+    width: 250px;
+    height: 250px;
+    margin: 2em;
+}
+.button-index {
+    margin: 1.8em;
+    padding: 1em;
+    background-color: #2081C3;
+    font-size: 1em;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+}
+#main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+}
+#main-container img {
+    height: 400px;
+    margin: 0 40px;
+}
+.card-body * {
+    font-size: 60%;
+}
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    padding: 1.5vh 10vh 10vh;
+}
+.beerImg{
+    display: block;
+    max-height: calc(100vh / 3.5);
+    margin: 3vh auto;
+    padding: 10px;
+}
+.card{
+    margin: 50px 0;
+    min-width: 400px !important;
+}
+.card-title {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.card-text:last-child {
+    font-weight: bold;
+}
+.card-footer{
+    background-color: #0A2C42 !important;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.card-footer p {
+    margin: 10px;
+}
